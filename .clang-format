@@ -1,0 +1,17 @@
+---
+BasedOnStyle: Google
+ColumnLimit: 100
+IndentWidth: 4
+AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+BreakBeforeBraces: Attach
+DerivePointerAlignment: false
+PointerAlignment: Left
+Standard: c++17
+IncludeBlocks: Regroup
+SortIncludes: CaseSensitive
+SpaceAfterCStyleCast: false
+SpacesBeforeTrailingComments: 2
+---

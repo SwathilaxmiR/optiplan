@@ -1,0 +1,41 @@
+name: OptiPlan CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: Build & Test (${{ matrix.preset }})
+    runs-on: ubuntu-22.04
+    strategy:
+      fail-fast: false
+      matrix:
+        preset: [debug, asan, tsan]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ninja-build clang-15 clang-format-15 clang-tidy-15
+          sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-15 100
+          sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-15 100
+
+      - name: Check formatting
+        if: matrix.preset == 'debug'
+        run: |
+          clang-format-15 --dry-run --Werror core/include/optiplan/*.hpp core/src/*.cpp core/tests/*.cpp
+
+      - name: Configure CMake
+        run: cmake --preset ${{ matrix.preset }}
+
+      - name: Build
+        run: cmake --build --preset ${{ matrix.preset }}
+
+      - name: Run Tests
+        run: ctest --preset ${{ matrix.preset }} --output-on-failure

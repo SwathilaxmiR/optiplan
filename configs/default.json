@@ -1,0 +1,19 @@
+{
+    "fiber": {
+        "attenuation_dB_per_km": 0.2,
+        "dispersion_ps_nm_km": 16.7,
+        "gamma_per_W_km": 1.3,
+        "span_length_km": 80.0
+    },
+    "amplifier": {
+        "noise_figure_dB": 5.0
+    },
+    "channel": {
+        "center_frequency_THz": 193.1,
+        "symbol_rate_GBaud": 32.0,
+        "channel_spacing_GHz": 50.0,
+        "num_channels": 80,
+        "launch_power_dBm": 0.0
+    },
+    "reference_bandwidth_GHz": 12.5
+}

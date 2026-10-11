@@ -1,0 +1,17 @@
+{
+    "name": "toy4",
+    "description": "Toy 4-node topology for unit testing and hand-computed verification",
+    "source": "Hand-crafted for OptiPlan test suite",
+    "nodes": [
+        {"id": "0", "name": "A"},
+        {"id": "1", "name": "B"},
+        {"id": "2", "name": "C"},
+        {"id": "3", "name": "D"}
+    ],
+    "links": [
+        {"id": "0", "source": "0", "target": "1", "length_km": 100.0},
+        {"id": "1", "source": "0", "target": "2", "length_km": 150.0},
+        {"id": "2", "source": "1", "target": "3", "length_km": 200.0},
+        {"id": "3", "source": "2", "target": "3", "length_km": 250.0}
+    ]
+}
