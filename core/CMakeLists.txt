@@ -1,6 +1,9 @@
 # ─── OptiPlan Core Library ───────────────────────────────────────────────────
 add_library(optiplan_core STATIC
     src/config.cpp
+    src/physical_constants.cpp
+    src/modulation.cpp
+    src/gn_model.cpp
 )
 
 target_include_directories(optiplan_core

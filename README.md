@@ -75,7 +75,7 @@ optiplan/
 | Phase | Status |
 |-------|--------|
 | 0. Setup | ✅ Complete |
-| 1. Physics | 🔲 Not started |
+| 1. Physics | ✅ Complete |
 | 2. Network + Routing | 🔲 Not started |
 | 3. Planner + Simulator | 🔲 Not started |
 | 4. Concurrency | 🔲 Not started |
