@@ -7,6 +7,10 @@ add_executable(optiplan_tests
     test_topology.cpp
     test_routing.cpp
     test_spectrum.cpp
+    test_planner.cpp
+    test_traffic.cpp
+    test_simulator.cpp
+    test_thread_pool.cpp
 )
 
 target_link_libraries(optiplan_tests

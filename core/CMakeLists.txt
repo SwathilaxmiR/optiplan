@@ -7,6 +7,9 @@ add_library(optiplan_core STATIC
     src/topology.cpp
     src/routing.cpp
     src/spectrum.cpp
+    src/traffic.cpp
+    src/planner.cpp
+    src/simulator.cpp
 )
 
 target_include_directories(optiplan_core
