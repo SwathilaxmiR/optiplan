@@ -76,7 +76,7 @@ optiplan/
 |-------|--------|
 | 0. Setup | ✅ Complete |
 | 1. Physics | ✅ Complete |
-| 2. Network + Routing | 🔲 Not started |
+| 2. Network + Routing | ✅ Complete |
 | 3. Planner + Simulator | 🔲 Not started |
 | 4. Concurrency | 🔲 Not started |
 | 5. ML | 🔲 Not started |

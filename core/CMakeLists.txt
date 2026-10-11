@@ -4,6 +4,9 @@ add_library(optiplan_core STATIC
     src/physical_constants.cpp
     src/modulation.cpp
     src/gn_model.cpp
+    src/topology.cpp
+    src/routing.cpp
+    src/spectrum.cpp
 )
 
 target_include_directories(optiplan_core
@@ -15,6 +18,16 @@ target_include_directories(optiplan_core
 target_link_libraries(optiplan_core
     PUBLIC
         nlohmann_json::nlohmann_json
+)
+
+# ─── OptiPlan CLI / Demo Executable ──────────────────────────────────────────
+add_executable(optiplan_cli
+    src/main.cpp
+)
+
+target_link_libraries(optiplan_cli
+    PRIVATE
+        optiplan_core
 )
 
 # ─── Tests ───────────────────────────────────────────────────────────────────

@@ -1,0 +1,492 @@
+{
+    "name": "nobel-eu",
+    "description": "Nobel-EU 28-node European core backbone network",
+    "source": "Official SNDlib instance (https://sndlib.put.poznan.pl/nobel-eu.overview.action). Distances calculated via great-circle Haversine formula from SNDlib node GPS coordinates.",
+    "nodes": [
+        {
+            "id": "0",
+            "name": "Amsterdam",
+            "label": "Amsterdam",
+            "longitude": 4.51,
+            "latitude": 52.2
+        },
+        {
+            "id": "1",
+            "name": "Athens",
+            "label": "Athens",
+            "longitude": 23.42,
+            "latitude": 37.58
+        },
+        {
+            "id": "2",
+            "name": "Barcelona",
+            "label": "Barcelona",
+            "longitude": 2.07,
+            "latitude": 41.22
+        },
+        {
+            "id": "3",
+            "name": "Belgrade",
+            "label": "Belgrade",
+            "longitude": 20.25,
+            "latitude": 44.47
+        },
+        {
+            "id": "4",
+            "name": "Berlin",
+            "label": "Berlin",
+            "longitude": 13.21,
+            "latitude": 52.31
+        },
+        {
+            "id": "5",
+            "name": "Bordeaux",
+            "label": "Bordeaux",
+            "longitude": -0.35,
+            "latitude": 44.51
+        },
+        {
+            "id": "6",
+            "name": "Brussels",
+            "label": "Brussels",
+            "longitude": 4.2,
+            "latitude": 50.49
+        },
+        {
+            "id": "7",
+            "name": "Budapest",
+            "label": "Budapest",
+            "longitude": 19.02,
+            "latitude": 47.29
+        },
+        {
+            "id": "8",
+            "name": "Copenhagen",
+            "label": "Copenhagen",
+            "longitude": 12.32,
+            "latitude": 55.41
+        },
+        {
+            "id": "9",
+            "name": "Dublin",
+            "label": "Dublin",
+            "longitude": -6.15,
+            "latitude": 53.21
+        },
+        {
+            "id": "10",
+            "name": "Frankfurt",
+            "label": "Frankfurt",
+            "longitude": 8.38,
+            "latitude": 50.07
+        },
+        {
+            "id": "11",
+            "name": "Glasgow",
+            "label": "Glasgow",
+            "longitude": -4.16,
+            "latitude": 55.51
+        },
+        {
+            "id": "12",
+            "name": "Hamburg",
+            "label": "Hamburg",
+            "longitude": 10.0,
+            "latitude": 53.33
+        },
+        {
+            "id": "13",
+            "name": "London",
+            "label": "London",
+            "longitude": -0.07,
+            "latitude": 51.3
+        },
+        {
+            "id": "14",
+            "name": "Lyon",
+            "label": "Lyon",
+            "longitude": 4.49,
+            "latitude": 45.43
+        },
+        {
+            "id": "15",
+            "name": "Madrid",
+            "label": "Madrid",
+            "longitude": -3.42,
+            "latitude": 40.25
+        },
+        {
+            "id": "16",
+            "name": "Milan",
+            "label": "Milan",
+            "longitude": 9.11,
+            "latitude": 45.28
+        },
+        {
+            "id": "17",
+            "name": "Munich",
+            "label": "Munich",
+            "longitude": 11.33,
+            "latitude": 48.07
+        },
+        {
+            "id": "18",
+            "name": "Oslo",
+            "label": "Oslo",
+            "longitude": 10.45,
+            "latitude": 59.54
+        },
+        {
+            "id": "19",
+            "name": "Paris",
+            "label": "Paris",
+            "longitude": 2.2,
+            "latitude": 48.51
+        },
+        {
+            "id": "20",
+            "name": "Prague",
+            "label": "Prague",
+            "longitude": 14.25,
+            "latitude": 50.04
+        },
+        {
+            "id": "21",
+            "name": "Rome",
+            "label": "Rome",
+            "longitude": 12.29,
+            "latitude": 41.53
+        },
+        {
+            "id": "22",
+            "name": "Stockholm",
+            "label": "Stockholm",
+            "longitude": 18.03,
+            "latitude": 59.19
+        },
+        {
+            "id": "23",
+            "name": "Strasbourg",
+            "label": "Strasbourg",
+            "longitude": 7.45,
+            "latitude": 48.35
+        },
+        {
+            "id": "24",
+            "name": "Vienna",
+            "label": "Vienna",
+            "longitude": 16.21,
+            "latitude": 48.12
+        },
+        {
+            "id": "25",
+            "name": "Warsaw",
+            "label": "Warsaw",
+            "longitude": 20.59,
+            "latitude": 52.14
+        },
+        {
+            "id": "26",
+            "name": "Zagreb",
+            "label": "Zagreb",
+            "longitude": 15.57,
+            "latitude": 45.48
+        },
+        {
+            "id": "27",
+            "name": "Zurich",
+            "label": "Zurich",
+            "longitude": 8.32,
+            "latitude": 47.22
+        }
+    ],
+    "links": [
+        {
+            "id": "0",
+            "source": "0",
+            "target": "6",
+            "length_km": 191.4,
+            "label": "Amsterdam-Brussels"
+        },
+        {
+            "id": "1",
+            "source": "0",
+            "target": "11",
+            "length_km": 676.6,
+            "label": "Amsterdam-Glasgow"
+        },
+        {
+            "id": "2",
+            "source": "0",
+            "target": "12",
+            "length_km": 390.0,
+            "label": "Amsterdam-Hamburg"
+        },
+        {
+            "id": "3",
+            "source": "0",
+            "target": "13",
+            "length_km": 330.7,
+            "label": "Amsterdam-London"
+        },
+        {
+            "id": "4",
+            "source": "1",
+            "target": "3",
+            "length_km": 810.8,
+            "label": "Athens-Belgrade"
+        },
+        {
+            "id": "5",
+            "source": "1",
+            "target": "21",
+            "length_km": 1049.4,
+            "label": "Athens-Rome"
+        },
+        {
+            "id": "6",
+            "source": "2",
+            "target": "14",
+            "length_km": 507.3,
+            "label": "Barcelona-Lyon"
+        },
+        {
+            "id": "7",
+            "source": "2",
+            "target": "15",
+            "length_km": 474.9,
+            "label": "Barcelona-Madrid"
+        },
+        {
+            "id": "8",
+            "source": "3",
+            "target": "7",
+            "length_km": 327.7,
+            "label": "Belgrade-Budapest"
+        },
+        {
+            "id": "9",
+            "source": "3",
+            "target": "26",
+            "length_km": 384.8,
+            "label": "Belgrade-Zagreb"
+        },
+        {
+            "id": "10",
+            "source": "4",
+            "target": "8",
+            "length_km": 349.6,
+            "label": "Berlin-Copenhagen"
+        },
+        {
+            "id": "11",
+            "source": "4",
+            "target": "12",
+            "length_km": 243.7,
+            "label": "Berlin-Hamburg"
+        },
+        {
+            "id": "12",
+            "source": "4",
+            "target": "17",
+            "length_km": 490.1,
+            "label": "Berlin-Munich"
+        },
+        {
+            "id": "13",
+            "source": "4",
+            "target": "20",
+            "length_km": 262.6,
+            "label": "Berlin-Prague"
+        },
+        {
+            "id": "14",
+            "source": "4",
+            "target": "25",
+            "length_km": 502.8,
+            "label": "Berlin-Warsaw"
+        },
+        {
+            "id": "15",
+            "source": "5",
+            "target": "15",
+            "length_km": 536.5,
+            "label": "Bordeaux-Madrid"
+        },
+        {
+            "id": "16",
+            "source": "5",
+            "target": "19",
+            "length_km": 485.6,
+            "label": "Bordeaux-Paris"
+        },
+        {
+            "id": "17",
+            "source": "6",
+            "target": "10",
+            "length_km": 300.6,
+            "label": "Brussels-Frankfurt"
+        },
+        {
+            "id": "18",
+            "source": "6",
+            "target": "19",
+            "length_km": 263.3,
+            "label": "Brussels-Paris"
+        },
+        {
+            "id": "19",
+            "source": "7",
+            "target": "20",
+            "length_km": 464.8,
+            "label": "Budapest-Prague"
+        },
+        {
+            "id": "20",
+            "source": "7",
+            "target": "25",
+            "length_km": 550.9,
+            "label": "Budapest-Warsaw"
+        },
+        {
+            "id": "21",
+            "source": "8",
+            "target": "18",
+            "length_km": 472.6,
+            "label": "Copenhagen-Oslo"
+        },
+        {
+            "id": "22",
+            "source": "9",
+            "target": "11",
+            "length_km": 286.4,
+            "label": "Dublin-Glasgow"
+        },
+        {
+            "id": "23",
+            "source": "9",
+            "target": "13",
+            "length_km": 465.0,
+            "label": "Dublin-London"
+        },
+        {
+            "id": "24",
+            "source": "10",
+            "target": "12",
+            "length_km": 379.3,
+            "label": "Frankfurt-Hamburg"
+        },
+        {
+            "id": "25",
+            "source": "10",
+            "target": "17",
+            "length_km": 309.2,
+            "label": "Frankfurt-Munich"
+        },
+        {
+            "id": "26",
+            "source": "10",
+            "target": "23",
+            "length_km": 202.8,
+            "label": "Frankfurt-Strasbourg"
+        },
+        {
+            "id": "27",
+            "source": "13",
+            "target": "19",
+            "length_km": 350.2,
+            "label": "London-Paris"
+        },
+        {
+            "id": "28",
+            "source": "14",
+            "target": "19",
+            "length_km": 384.0,
+            "label": "Lyon-Paris"
+        },
+        {
+            "id": "29",
+            "source": "16",
+            "target": "17",
+            "length_km": 353.4,
+            "label": "Milan-Munich"
+        },
+        {
+            "id": "30",
+            "source": "16",
+            "target": "21",
+            "length_km": 489.7,
+            "label": "Milan-Rome"
+        },
+        {
+            "id": "31",
+            "source": "16",
+            "target": "27",
+            "length_km": 224.1,
+            "label": "Milan-Zurich"
+        },
+        {
+            "id": "32",
+            "source": "17",
+            "target": "24",
+            "length_km": 362.4,
+            "label": "Munich-Vienna"
+        },
+        {
+            "id": "33",
+            "source": "18",
+            "target": "22",
+            "length_km": 431.0,
+            "label": "Oslo-Stockholm"
+        },
+        {
+            "id": "34",
+            "source": "19",
+            "target": "23",
+            "length_km": 387.7,
+            "label": "Paris-Strasbourg"
+        },
+        {
+            "id": "35",
+            "source": "20",
+            "target": "24",
+            "length_km": 256.8,
+            "label": "Prague-Vienna"
+        },
+        {
+            "id": "36",
+            "source": "21",
+            "target": "26",
+            "length_km": 512.6,
+            "label": "Rome-Zagreb"
+        },
+        {
+            "id": "37",
+            "source": "22",
+            "target": "25",
+            "length_km": 800.0,
+            "label": "Stockholm-Warsaw"
+        },
+        {
+            "id": "38",
+            "source": "27",
+            "target": "14",
+            "length_km": 355.1,
+            "label": "Zurich-Lyon"
+        },
+        {
+            "id": "39",
+            "source": "23",
+            "target": "27",
+            "length_km": 141.5,
+            "label": "Strasbourg-Zurich"
+        },
+        {
+            "id": "40",
+            "source": "24",
+            "target": "26",
+            "length_km": 297.6,
+            "label": "Vienna-Zagreb"
+        }
+    ]
+}
